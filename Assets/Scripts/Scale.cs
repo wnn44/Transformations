@@ -8,7 +8,7 @@ public class Scale : MonoBehaviour
 
     private void Start()
     {
-        _scaleChange = new Vector3(_speedScale, _speedScale, _speedScale);        
+        _scaleChange = new Vector3(_speedScale, 0, _speedScale);        
     }
 
     void Update()
